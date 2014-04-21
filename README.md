@@ -14,3 +14,8 @@ In order to make this demo work
 5. Drag your mouse over an object. You will find the program start tracking it while you change position. The value will be printed in the command line.
 6. Open the Unity3d Scene Unity3D/Assets/Scenes/socketTest.unity in Unity3D
 7. Run the game and you will find the Unity's game object is following the real life tracked object
+
+
+I'm just a tweet away (https://twitter.com/hasanavi) if you find any problem. For other contact details. http://hasanavi.me/
+
+**I dont care about licencing. You can use it the way you like.**
