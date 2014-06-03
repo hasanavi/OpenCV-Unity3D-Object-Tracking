@@ -1,5 +1,5 @@
 # OpenCV and Unity3D integration.
-## A simple way to connect Opencv with Unity3D using port.
+## A simple way to connect Opencv with Unity3D using socket.
 
 I've used Open CV Camshift algorithm to detect and track object in Python. Then I send the position of the object into Unity 3D using UDP Socket, read the stream from Unity 3D and change the position of a game object.... Pretty simple.
 
