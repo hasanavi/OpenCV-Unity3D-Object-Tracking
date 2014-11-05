@@ -18,4 +18,5 @@ In order to make this demo work
 
 I'm just a tweet away (https://twitter.com/hasanavi) if you find any problem. For other contact details. http://hasanavi.me/
 
-**I dont care about licencing. You can use it the way you like.**
+# License
+This is strictly **WTFPL** (http://en.wikipedia.org/wiki/WTFPL) license ;)
