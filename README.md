@@ -8,7 +8,7 @@ Here is the demo video - https://www.youtube.com/watch?v=aE4_VtUDORw
 In order to make this demo work
 
 1. You need to install Unity3D (http://unity3d.com)
-2. Install and configure Python and OpenCV (http://docs.opencv.org/trunk/doc/py_tutorials/py_setup/py_table_of_contents_setup/py_table_of_contents_setup.html#py-table-of-content-setup)
+2. Install and configure Python and OpenCV (https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows)
 3. Change the 3rd line of OpenCV/gameDemo.py to appropriate installation directory of OpenCv
 4. Run the OpenCV/gameDemo.py
 5. Drag your mouse over an object. You will find the program start tracking it while you change position. The position will be printed in the command line.
