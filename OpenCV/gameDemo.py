@@ -4,7 +4,6 @@ sys.path.append('C:\Users\Hasan\Downloads\opencv\sources\samples\python2')
 
 import numpy as np
 import cv2
-import video
 
 import socket
 import time
@@ -23,7 +22,7 @@ sock = socket.socket(socket.AF_INET, # Internet
 
 class App(object):
     def __init__(self, video_src):
-        self.cam = video.create_capture(video_src)
+        self.cam = cv2.VideoCapture(video_src)
         ret, self.frame = self.cam.read()
         cv2.namedWindow('camshift')
         cv2.setMouseCallback('camshift', self.onmouse)
@@ -106,7 +105,7 @@ class App(object):
                 break
             if ch == ord('b'):
                 self.show_backproj = not self.show_backproj
-        cv2.destroyAllWindows()        
+        cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
