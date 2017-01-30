@@ -10,7 +10,6 @@ public class SocketClient : MonoBehaviour {
 
 	// Use this for initialization
 
-	//private const int listenPort = 5005;
 	public GameObject hero;
 	private float xPos = 10.0f;
 
