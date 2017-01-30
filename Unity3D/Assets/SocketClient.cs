@@ -49,7 +49,7 @@ public class SocketClient : MonoBehaviour {
 	private void init(){
 		print ("UPDSend.init()");
 
-		port = 5005;
+		port = 5065;
 
 		print ("Sending to 127.0.0.1 : " + port);
 

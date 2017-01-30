@@ -10,7 +10,7 @@ import time
 
 
 UDP_IP = "127.0.0.1"
-UDP_PORT = 5005
+UDP_PORT = 5065
 
 print "UDP target IP:", UDP_IP
 print "UDP target port:", UDP_PORT
@@ -90,8 +90,12 @@ class App(object):
                 track_box, self.track_window = cv2.CamShift(prob, self.track_window, term_crit)
 
                 xPos = track_box[0][0]
-                print "message:", str(xPos)
+                print "position - X:", str(xPos)
                 sock.sendto(str(xPos) , (UDP_IP, UDP_PORT))
+
+                #If you want to see Y Position
+                #yPos = track_box[0][1]
+                #print "position - Y:", str(yPos)
 
                 if self.show_backproj:
                     vis[:] = prob[...,np.newaxis]
