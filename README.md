@@ -26,6 +26,6 @@ I'm just a tweet away (https://twitter.com/hasanavi) if you find any problem. Fo
 # License
 This is strictly **WTFPL** (http://en.wikipedia.org/wiki/WTFPL) license ;)
 
-# If this project help you anyway - I would appreciate if you could buy me a coffe :)
+# If this project help you anyway - I would appreciate if you could buy me a coffee :)
 
 [<img src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0">](https://ko-fi.com/A83533OD)
