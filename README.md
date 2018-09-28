@@ -3,6 +3,9 @@
 
 I was looking for a solution to integrated OpenCV with Unity3D easily. Most of the solution were for Windows with very complex setup procedure / expensive plugins / with feature restriction. As a Unix user those were'nt very helpful. I wanted to utilise full feature of OpenCV and Unity3D regardless OS and then came up with this very simple solution.
 
+# 28th Sept 2018 Update
+1. Unity 2018.2 compatible
+
 # 30th January 2017 update
 1. Make it compatible for Unity 5.5 and above
 2. Change port from commonly used 5005 to a safer 5065
