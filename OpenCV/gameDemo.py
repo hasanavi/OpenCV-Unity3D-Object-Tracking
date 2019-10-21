@@ -15,7 +15,7 @@ UDP_PORT = 5065
 print "UDP target IP:", UDP_IP
 print "UDP target port:", UDP_PORT
 #print "message:", MESSAGE
-
+#for python 3.7 print("message:",MESSAGE)
 sock = socket.socket(socket.AF_INET, # Internet
                      socket.SOCK_DGRAM) # UDP
 
@@ -55,6 +55,7 @@ class App(object):
         bin_count = self.hist.shape[0]
         bin_w = 24
         img = np.zeros((256, bin_count*bin_w, 3), np.uint8)
+        #for python 3.7 use range()
         for i in xrange(bin_count):
             h = int(self.hist[i])
             cv2.rectangle(img, (i*bin_w+2, 255), ((i+1)*bin_w-2, 255-h), (int(180.0*i/bin_count), 255, 255), -1)
@@ -91,6 +92,9 @@ class App(object):
 
                 xPos = track_box[0][0]
                 print "position - X:", str(xPos)
+                #for error 'a bytes-like object is required, not'str''
+                #b1= bytes(str(xPos),encode='utf-8')
+                #sock.sendto(b1,(UDP_IP,UDP_PORT))
                 sock.sendto(str(xPos) , (UDP_IP, UDP_PORT))
 
                 #If you want to see Y Position
