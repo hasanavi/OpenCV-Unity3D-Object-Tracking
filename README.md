@@ -3,6 +3,9 @@
 
 I was looking for a solution to integrated OpenCV with Unity3D easily. Most of the solution were for Windows with very complex setup procedure / expensive plugins / with feature restriction. As a Unix user those were'nt very helpful. I wanted to utilise full feature of OpenCV and Unity3D regardless OS and then came up with this very simple solution.
 
+# 21st Oct 2019 Update
+1. Pythin 3.7 compatibility
+
 # 28th Sept 2018 Update
 1. Unity 2018.2 compatible
 
