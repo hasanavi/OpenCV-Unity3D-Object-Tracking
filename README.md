@@ -3,16 +3,18 @@
 
 I was looking for a solution to integrated OpenCV with Unity3D easily. Most of the solution were for Windows with very complex setup procedure / expensive plugins / with feature restriction. As a Unix user those were'nt very helpful. I wanted to utilise full feature of OpenCV and Unity3D regardless OS and then came up with this very simple solution.
 
-# 21st Oct 2019 Update
+## 21st Oct 2019 Update
 1. Pythin 3.7 compatibility
 
-# 28th Sept 2018 Update
+## 28th Sept 2018 Update
 1. Unity 2018.2 compatible
 
-# 30th January 2017 update
+## 30th January 2017 update
 1. Make it compatible for Unity 5.5 and above
 2. Change port from commonly used 5005 to a safer 5065
 3. Add comments on how to get position Y value in gameDemo.py file
+
+## How to run
 
 I've used Open CV Camshift algorithm to detect and track object in Python. Then I send the position of the object into Unity 3D using UDP Socket, read the stream from Unity 3D and change the position of a game object.... Pretty simple.
 
